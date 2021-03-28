@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Switch to Vendor">
+        <SwitchPreference
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:defaultValue="false"
+            android:title="Become a Vendor!" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Personal Details">
+
+        <EditTextPreference
+            android:defaultValue="false"
+            android:key="Name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Enter Your Name"
+            android:title="Name" />
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:key="address"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Enter Your Address"
+            android:title="Address" />
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:key="phno"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Enter Your Phone Number"
+            android:title="Phone Number" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="sensitiveinfo"
+        android:title="Settings">
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/Adresses"
+            android:entryValues="@array/values"
+            android:key="list_preference_1"
+            android:summary="Change Language"
+            android:title="Language" />
+        <SwitchPreference
+            android:id="@+id/logout"
+            android:defaultValue="false"
+            android:key="switch_preference_1"
+            android:title="Logout" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

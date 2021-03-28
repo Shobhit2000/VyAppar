@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-firestore:17.1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21bd26060aa7bfd58956701989e1c7af/jetified-firebase-firestore-17.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21bd26060aa7bfd58956701989e1c7af/jetified-firebase-firestore-17.1.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2fbbd0a0e1b5ebfb6e744bdd2455f5da/jetified-firebase-firestore-17.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2fbbd0a0e1b5ebfb6e744bdd2455f5da/jetified-firebase-firestore-17.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2fbbd0a0e1b5ebfb6e744bdd2455f5da/jetified-firebase-firestore-17.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore/17.1.2/f3a3d7d87650eb786746f862e99b0f0e253cd0cc/firebase-firestore-17.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

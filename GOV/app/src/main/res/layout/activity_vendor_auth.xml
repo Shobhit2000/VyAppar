@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.VendorAuth"
+    android:background="@color/white">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add Location"
+        android:id="@+id/button"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear"
+        android:background="@color/white"
+        >
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/common_google_signin_btn_icon_dark_normal"
+            android:id="@+id/saveImage"
+            >
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/saveImage"
+            android:layout_marginTop="64dp"
+            android:orientation="vertical"
+            android:id="@+id/linear_layout"
+            android:layout_marginLeft="28dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NAME"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/oxygen"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/name"
+                android:textSize="22sp"
+                />
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="80dp"
+                android:layout_height="13.49dp"
+
+
+                />
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/recycler_view"
+                android:layout_height="34dp"
+                android:alpha="0"
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_layout"
+            android:layout_marginTop="14dp"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:id="@+id/description"
+            android:gravity="center"
+            android:fontFamily="@font/oxygen"
+            android:textSize="16sp"
+            android:text="daslkdalmdlaksmdlkasmdlkksldmsakdm jkdjsdslakdjljsd ksjdlsakdjsajdals ksjdlaks"
+
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:layout_above="@id/bottomNavigation"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:orientation="horizontal">
+
+            <com.google.android.material.tabs.TabLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/tabLayout"
+                >
+
+
+
+            </com.google.android.material.tabs.TabLayout>
+
+        </LinearLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            />
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:visibility="invisible"
+        android:clickable="false"
+        android:id="@+id/cv"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NAME"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:id="@+id/name2"
+                android:layout_margin="20dp"
+                ></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="DESCRIPTION"
+                android:gravity="center"
+                android:id="@+id/description2"
+                android:layout_margin="20dp"
+                ></EditText>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:spinnerMode="dialog"
+                android:id="@+id/spinner"
+                ></Spinner>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:id="@+id/bt"
+                android:text="Apply Changes"
+                ></Button>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:id="@+id/bottomNavigation"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_vendor"
+        app:labelVisibilityMode="labeled"
+        >
+
+
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+
+</RelativeLayout>

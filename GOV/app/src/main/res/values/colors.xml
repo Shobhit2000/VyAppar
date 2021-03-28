@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorFontDark">#172B4D</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGreyOne">#606860</color>
+    <color name="colorGreyTwo">#B9BBBF</color>
+    <color name="colorGreyThree">#F4F5F7</color>
+    <color name="colorIconLight">#C1C7D0</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorOrange">#F4511E</color>
+    <color name="colorPurple">#9890C3F6</color>
+    <color name="colorTransparentBlack">#75050505</color>
+    <color name="colorTransparentBlack2">#08050505</color>
+    <color name="colorTransparentBlack3">#28050505</color>
+    <color name="colorStoryOutline">#ED2887</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorOtherUserMessage">#272D39</color>
+    <color name="green">#2bcea0</color>
+    <array name="sample_progress_gradient">
+        <item>@color/sample_progress_gradient_start</item>
+        <item>@color/sample_progress_gradient_end</item>
+    </array>
+    <color name="sample_progress_background">#0A000000</color>
+    <color name="sample_progress_gradient_start">#2bcea0</color>
+    <color name="sample_progress_gradient_end">#D52BCEA0</color>
+    <color name="pink">#03a9f4</color>
+    <color name="lightGray">#F2F2F2</color>
+
+    <color name="disabledBtnBg">#999999</color>
+    <color name="greybar">#94000000</color>
+    <color name="blue">#52bcf7</color>
+    <color name="orange">#f18f72</color>
+    <color name="lightBlue">#8baff7</color>
+    <color name="red">#e94469</color>
+    <color name="lightOrange">#f5b271</color>
+    <color name="lightPink">#ddf4fe</color>
+    <color name="lightBlack">#90000000</color>
+    <color name="colorPrimary">#6813C9</color>
+    <color name="colorPrimaryDark1">#E16929FA</color>
+    <color name="colorPrimaryDark">#520BF3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="amulight">#FAF0CA</color>
+    <color name="amudark">#0D3B66</color>
+    <color name="Orangeapp">#FFFF5722</color>
+    <color name="Orangelight">#FFFF9800</color>
+    <color name="violethighlight">#A97AEB</color>
+    <color name="lightgrey">#4FEAEAEA</color>
+    <color name="lightpurple">#A578EB</color>
+    <color name="searchblack">#70000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="complimentarygreen">#7AEB83</color>
+    <color name="black">#000000</color>
+    <color name="grey">#DCDCDC</color>
+</resources>

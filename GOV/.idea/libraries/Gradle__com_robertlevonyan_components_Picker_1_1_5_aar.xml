@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.robertlevonyan.components:Picker:1.1.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc77624ed70ddd93bbf04922fc51f70b/jetified-Picker-1.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc77624ed70ddd93bbf04922fc51f70b/jetified-Picker-1.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06b5ce69d0ef0bd58da672b5878a6b2b/jetified-Picker-1.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06b5ce69d0ef0bd58da672b5878a6b2b/jetified-Picker-1.1.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06b5ce69d0ef0bd58da672b5878a6b2b/jetified-Picker-1.1.5/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.robertlevonyan.components/Picker/1.1.5/ed6f13114f0de248849c8b16e7db13e9b085782/Picker-1.1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.robertlevonyan.components/Picker/1.1.5/94a5cce77b2dbef4907e677876fefb8d5c7fac56/Picker-1.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

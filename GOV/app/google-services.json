@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "144020601112",
+    "firebase_url": "https://govfirebaseproject.firebaseio.com",
+    "project_id": "govfirebaseproject",
+    "storage_bucket": "govfirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144020601112:android:d602e9c277a4b5acc5466d",
+        "android_client_info": {
+          "package_name": "com.example.gov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144020601112-dqab8drnsnqd9vcaaqu31hdfd63n1utq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gov",
+            "certificate_hash": "f663a765085c7675bab4a322873be8b528c276c6"
+          }
+        },
+        {
+          "client_id": "144020601112-3p7cjm6sgrrje3cvv1pg73p9k0sdbjvb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gov",
+            "certificate_hash": "1ccf24b60aa1e6b79e27148b814cc4bcbaba494f"
+          }
+        },
+        {
+          "client_id": "144020601112-86r41s2vpcsko9i58eev0kn4dlcn0qah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAijGx0iRlpMpQC1WfVkEwyBrX-C_mQH-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144020601112-86r41s2vpcsko9i58eev0kn4dlcn0qah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

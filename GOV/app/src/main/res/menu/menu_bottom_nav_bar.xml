@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="HOME"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/homebottom"
+        android:enabled="true"/>
+
+    <item android:title="SEARCH"
+        android:icon="@drawable/ic_search1"
+        android:id="@+id/searchbottom"
+        android:enabled="true"/>
+
+    <item android:title="CHAT"
+        android:icon="@drawable/ic_speech_bubble_48_"
+        android:id="@+id/cartbottom"
+        android:iconTint="@color/Orangeapp"
+        android:iconTintMode="src_over"
+        android:enabled="true"/>
+
+    <item android:title="ACCOUNT"
+        android:icon="@drawable/ic_user"
+        android:id="@+id/profilebottom"
+        android:enabled="true"/>
+
+
+
+</menu>

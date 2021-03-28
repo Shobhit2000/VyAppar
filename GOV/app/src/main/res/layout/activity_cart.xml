@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.CartActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/constraint"
+        android:background="@drawable/searchviewbackground">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/sw"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/whitebackground"
+            android:baselineAligned="true"
+            app:defaultQueryHint="Search Items"
+            app:iconifiedByDefault="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:queryBackground="@drawable/whitebackground"
+            app:searchIcon="@drawable/ic_baseline_search_24" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="676dp"
+        android:layout_below="@+id/constraint"
+        android:id="@+id/recycler_View"
+        android:layout_above="@+id/bottomNavigation"></androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:id="@+id/bottomNavigation"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_vendor"
+        app:labelVisibilityMode="labeled"
+        >
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

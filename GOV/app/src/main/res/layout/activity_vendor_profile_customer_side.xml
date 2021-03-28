@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:context=".Activity.VendorAuth">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear"
+        >
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:layout_width="75dp"
+          android:layout_height="75dp"
+          android:layout_marginTop="64dp"
+          android:layout_marginLeft="15dp"
+          android:src="@drawable/common_google_signin_btn_icon_dark_normal"
+          android:id="@+id/saveImage"
+          >
+
+      </de.hdodenhof.circleimageview.CircleImageView>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_toRightOf="@+id/saveImage"
+          android:layout_marginTop="64dp"
+          android:orientation="vertical"
+          android:id="@+id/linear_layout"
+          android:layout_marginLeft="25dp"
+          >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAME"
+            android:id="@+id/name"
+            android:textSize="22sp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recycler_view"
+            android:layout_height="34dp"/>
+
+
+      </LinearLayout>
+
+      <TextView
+          android:layout_width="287dp"
+          android:layout_centerHorizontal="true"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/linear_layout"
+          android:layout_marginTop="16dp"
+          android:id="@+id/description"
+          android:gravity="center"
+          android:textSize="14dp"
+          android:text="daslkdalmdlaksmdlkasmdlkksldmsakdm jkdjsdslakdjljsd ksjdlsakdjsajdals ksjdlaks"
+
+          />
+
+
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linear"
+        android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="8"
+          android:orientation="horizontal">
+
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tabLayout"
+            >
+
+
+
+        </com.google.android.material.tabs.TabLayout>
+
+      </LinearLayout>
+
+      <androidx.viewpager.widget.ViewPager
+          android:id="@+id/viewPager"
+
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+
+          android:layout_weight="1"
+
+          />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+  </RelativeLayout>
+
+
+
+
+

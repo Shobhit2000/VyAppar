@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RegisterActivity">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/common"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center_horizontal"
+        android:text="Welcome!"
+        android:textColor="@color/colorPrimaryDark1"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:orientation="vertical"
+        android:id="@+id/common"
+        android:layout_centerInParent="true"
+        >
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/oxygen"
+
+            android:hint="Name" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <br.com.sapereaude.maskedEditText.MaskedEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ddmmyyyy"
+                android:inputType="datetime"
+                android:clickable="true"
+                android:layout_weight="1"
+                android:fontFamily="@font/oxygen"
+                android:id="@+id/dob"
+                android:gravity="center"
+                app:mask="##/##/####"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age"
+                android:id="@+id/age"
+                android:fontFamily="@font/oxygen"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:id="@+id/address"
+            android:fontFamily="@font/oxygen"
+            android:gravity="center"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EmailId"
+            android:fontFamily="@font/oxygen"
+            android:id="@+id/emailId"
+            android:gravity="center"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:id="@+id/pn"
+            android:fontFamily="@font/oxygen"
+            android:inputType="number"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Customer"
+                    android:fontFamily="@font/oxygen"
+                    android:id="@+id/customer"
+                    android:onClick="onRadioButtonClicked"
+                    />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/service"
+                    android:text="Service Provider"
+                    android:fontFamily="@font/oxygen"
+                    android:onClick="onRadioButtonClicked"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/common"
+        android:id="@+id/scroll"
+        android:visibility="invisible"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hey you"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scroll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="@color/colorPrimaryDark1"
+        android:fontFamily="@font/oxygen"
+        android:paddingTop="10dp"
+        android:text="sign up"
+        android:textColor="@color/white"
+        android:textStyle="bold"></Button>
+
+
+</RelativeLayout>

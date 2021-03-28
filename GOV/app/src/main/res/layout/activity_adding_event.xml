@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AddingEvent">
+
+
+ <ImageView
+     android:layout_width="100dp"
+     android:layout_height="100dp"
+     android:id="@+id/image"
+     android:layout_centerHorizontal="true"
+     android:layout_margin="20dp"
+     android:background="@drawable/ic_addimg"
+     />
+
+
+ <EditText
+     android:id="@+id/Service"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/image"
+     android:layout_marginHorizontal="20dp"
+     android:layout_marginTop="20dp"
+
+     android:gravity="center"
+     android:hint="Product/ Service Name" />
+
+ <EditText
+     android:id="@+id/price"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/Service"
+     android:layout_marginHorizontal="20dp"
+
+     android:layout_marginTop="0dp"
+     android:gravity="center"
+     android:hint="Price(Rupees)" />
+
+
+ <EditText
+     android:id="@+id/description"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/price"
+     android:layout_marginHorizontal="20dp"
+     android:layout_marginTop="0dp"
+     android:gravity="center"
+     android:hint="Description" />
+
+ <com.google.android.material.floatingactionbutton.FloatingActionButton
+     android:id="@+id/floating"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/description"
+     android:layout_alignEnd="@+id/description"
+     android:layout_marginTop="52dp"
+     android:layout_marginEnd="42dp"
+     android:src="@drawable/ic_baseline_add_circle_outline_24">
+
+
+ </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+</RelativeLayout>

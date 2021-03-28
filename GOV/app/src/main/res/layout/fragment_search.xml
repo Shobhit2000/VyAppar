@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/searchviewbackground">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/sw"
+                style="@style/SearchViewTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="true"
+                card_view:queryBackground="@color/colorTransparent"
+                card_view:defaultQueryHint="Search Items"
+                card_view:iconifiedByDefault="false"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:searchIcon="@drawable/ic_search" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category: " />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipcat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:checkable="true"
+                android:checked="true"
+                android:text="Food"
+                android:textColor="#FFFFFF"
+                card_view:checkedIconVisible="false"
+                card_view:chipBackgroundColor="@color/lightpurple"
+                card_view:chipIconEnabled="false"
+                card_view:closeIconVisible="false" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Price:" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:checkable="true"
+                android:checked="true"
+                android:text="High to Low"
+                android:textColor="#FFFFFF"
+                card_view:checkedIconVisible="false"
+                card_view:chipBackgroundColor="@color/lightpurple"
+                card_view:closeIconVisible="false" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
+
+

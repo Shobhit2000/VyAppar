@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@android:color/transparent"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image"
+                android:layout_width="57dp"
+                android:layout_height="57dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/common_google_signin_btn_icon_dark_normal"
+                card_view:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="12dp"
+                card_view:layout_constraintTop_toTopOf="parent">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="91dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="23dp"
+                android:text="Joe's Bakery"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                card_view:layout_constraintStart_toEndOf="@id/image"
+                card_view:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="276dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:text="wfwfwfdwewdwcehf w8  h ih wdfds.."
+                android:layout_marginBottom="12dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+
+                card_view:layout_constraintStart_toEndOf="@+id/image"
+                card_view:layout_constraintTop_toBottomOf="@+id/Name" />
+
+            <TextView
+                android:id="@+id/last"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_marginLeft="131dp"
+                android:text="Yesterday"
+                android:textSize="12dp"
+                android:layout_marginTop="23dp"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                android:textColor="@color/black"
+                card_view:layout_constraintStart_toEndOf="@id/Name"
+                card_view:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="344dp"
+                android:layout_height="0.5dp"
+                android:background="#ffffcf"
+
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</RelativeLayout>
