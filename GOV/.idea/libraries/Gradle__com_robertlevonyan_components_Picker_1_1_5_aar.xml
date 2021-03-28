@@ -6,6 +6,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06b5ce69d0ef0bd58da672b5878a6b2b/jetified-Picker-1.1.5/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06b5ce69d0ef0bd58da672b5878a6b2b/jetified-Picker-1.1.5/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06b5ce69d0ef0bd58da672b5878a6b2b/jetified-Picker-1.1.5/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/30d53a0c1cf34959c7f411b32e9b13ad/jetified-Picker-1.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/30d53a0c1cf34959c7f411b32e9b13ad/jetified-Picker-1.1.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/30d53a0c1cf34959c7f411b32e9b13ad/jetified-Picker-1.1.5/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.robertlevonyan.components/Picker/1.1.5/ed6f13114f0de248849c8b16e7db13e9b085782/Picker-1.1.5-javadoc.jar!/" />

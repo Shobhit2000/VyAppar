@@ -10,7 +10,7 @@
         android:id="@+id/searchbottom"
         android:enabled="true"/>
 
-    <item android:title="CHAT"
+    <item android:title="CART"
         android:icon="@drawable/ic_speech_bubble_48_"
         android:id="@+id/cartbottom"
         android:iconTint="@color/Orangeapp"

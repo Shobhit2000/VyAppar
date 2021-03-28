@@ -3,6 +3,7 @@ package com.example.gov.Activity;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
 import android.widget.TextView;
@@ -48,7 +49,8 @@ public class Activity_MAIN extends AppCompatActivity implements Adapter_Home_Top
         bnw.setOnNavigationItemSelectedListener(navListener);
         preferences= PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         preferences.edit().putBoolean("switch_preference_1",false).commit();
-        bnw.inflateMenu(R.menu.menu_bottom_nav_bar);
+        Log.e("Main Activity",bnw.getMaxItemCount()+"");
+        //bnw.inflateMenu(R.menu.menu_bottom_nav_bar);
 
         APPLICATION_CLASS.NAME=preferences.getString("Name","Blank");
         APPLICATION_CLASS.ADDRESS=preferences.getString("address","Blank");

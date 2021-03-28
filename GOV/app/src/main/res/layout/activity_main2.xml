@@ -27,7 +27,7 @@
         android:id="@+id/bottomnw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:backgroundTint="@color/greybar"
+        android:background="@android:color/white"
         app:elevation="8dp"
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
